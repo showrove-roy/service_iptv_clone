@@ -13,10 +13,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #000000;
   color: #ffffff;
-  /* font-family: 'Bayon', sans-serif; */
   font-family: "Roboto", sans-serif;
+}
+body {
+  background: #000000;
 }
 
 /* START: General styles */
@@ -28,6 +29,28 @@
   font-family: helveticaNeue, sans-serif !important;
 }
 
+.bayonF {
+  font-family: "Bayon", sans-serif;
+}
+
 .bgGradient {
   background: linear-gradient(360deg, #000000 44%, #1a1a1a 100%);
+}
+
+.swiper--blog__wrapper {
+  display: flex;
+  transition-timing-function: linear !important;
+  color: white;
+}
+
+.swiper--blog__slide {
+  width: 200px;
+  height: 100px;
+  margin-right: 20px;
+  flex-grow: 0;
+  flex-shrink: 0; 
+  flex-basis: auto;
+}
+.swiper--blog__slide img{
+
 }
