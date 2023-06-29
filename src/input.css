@@ -48,9 +48,35 @@ body {
   height: 100px;
   margin-right: 20px;
   flex-grow: 0;
-  flex-shrink: 0; 
+  flex-shrink: 0;
   flex-basis: auto;
 }
-.swiper--blog__slide img{
 
+
+.swiper--blog__wrapper2 {
+  display: flex;
+  transition-timing-function: linear !important;
+  color: white;
+}
+
+.swiper--blog__slide2 {
+  width: auto;
+  margin-right: 5px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+.swiper--blog__wrapper3 {
+  display: flex;
+  transition-timing-function: linear !important;
+  color: white;
+}
+
+.swiper--blog__slide3 {
+  width: 300px;
+  height: 100px;
+  margin-right: 20px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
 }
