@@ -1205,16 +1205,6 @@ body {
   background-image: linear-gradient(360deg, #000000 32%, #222222 100%);
 }
 
-/* .afterBefore::before {
-  content: "A";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 100px;
-  height: 5px;
-  color: yellow;
-} */
-
 .card {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
@@ -1465,4 +1455,83 @@ body {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
+}
+
+.gradient {
+  background-color: transparent;
+  background-image: linear-gradient(360deg, #000000 32%, #222222 100%);
+}
+
+.card {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.shadow {
+  box-shadow: 4px 42px 61px -14px rgba(238.98304347826073, 253.29999999999998, 0, 0);
+}
+.transition {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+    transform var(--e-transform-transition-duration, 0.4s);
+}
+.anim:hover {
+  animation-name: elementor-animation-hang-sink, elementor-animation-hang;
+  animation-duration: 0.3s, 1.5s;
+  animation-delay: 0s, 0.3s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal, alternate;
+}
+
+@keyframes elementor-animation-hang-sink {
+  100% {
+    transform: translateY(8px);
+  }
+}
+@keyframes elementor-animation-hang {
+  0% {
+    transform: translateY(8px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(8px);
+  }
+}
+
+.image {
+  filter: brightness(200%) contrast(111%) saturate(100%) blur(0px)
+    hue-rotate(0deg);
+  box-shadow: 0px 0px 10px 0px #000000;
+  opacity: 1;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footerGradient {
+  background-color: transparent;
+  background-image: radial-gradient(at top center, #000000 39%, #535353 100%);
+}
+
+.zoom-in-zoom-out:hover {
+  animation: zoom-in-zoom-out 0.8s ease-out infinite;
 }
