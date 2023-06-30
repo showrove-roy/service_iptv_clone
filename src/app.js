@@ -74,4 +74,5 @@ blogSlider3.on("touchEnd", function () {
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 10,
+  grabCursor: true,
 });
