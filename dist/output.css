@@ -554,6 +554,14 @@ video {
   position: relative;
 }
 
+.left-0{
+  left: 0px;
+}
+
+.top-0{
+  top: 0px;
+}
+
 .z-50{
   z-index: 50;
 }
@@ -604,6 +612,14 @@ video {
   margin-top: 15px;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mt-7{
+  margin-top: 1.75rem;
+}
+
 .block{
   display: block;
 }
@@ -648,6 +664,14 @@ video {
   height: 9.16%;
 }
 
+.h-full{
+  height: 100%;
+}
+
+.max-h-screen{
+  max-height: 100vh;
+}
+
 .w-6{
   width: 1.5rem;
 }
@@ -686,6 +710,14 @@ video {
 
 .max-w-6xl{
   max-width: 72rem;
+}
+
+.max-w-xl{
+  max-width: 36rem;
+}
+
+.max-w-2xl{
+  max-width: 42rem;
 }
 
 .shrink-0{
@@ -919,6 +951,11 @@ video {
   padding-bottom: 6px;
 }
 
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pb-\[7px\]{
   padding-bottom: 7px;
 }
@@ -1001,6 +1038,16 @@ video {
   line-height: 1rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1031,6 +1078,10 @@ video {
 
 .tracking-widest{
   letter-spacing: 0.1em;
+}
+
+.tracking-wider{
+  letter-spacing: 0.05em;
 }
 
 .text-\[\#DBFF00\]{
@@ -1417,6 +1468,11 @@ body {
   .lg\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .lg\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .lg\:font-bold{
