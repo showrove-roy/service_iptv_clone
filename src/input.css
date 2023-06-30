@@ -16,6 +16,9 @@
   color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #000000;
 }
